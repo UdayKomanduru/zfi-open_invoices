@@ -1,0 +1,9 @@
+CLASS zbp_zi_openinvoice DEFINITION
+  PUBLIC
+  ABSTRACT
+  FINAL
+  FOR BEHAVIOR OF zi_openinvoice.
+ENDCLASS.
+
+CLASS zbp_zi_openinvoice IMPLEMENTATION.
+ENDCLASS.
