@@ -1,0 +1,11 @@
+define behavior for ZI_OpenInvoice alias OpenInvoice
+implementation in class zbp_zi_openinvoice unique
+read-only
+{
+  -- No CUD operations: this is a reporting service only.
+  -- etag based on LastChangeDate enables conditional GETs.
+  etag master LastChangeDate
+
+  -- No validations, determinations, or actions required
+  -- for a read-only service.
+}
