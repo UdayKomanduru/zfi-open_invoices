@@ -1,0 +1,4 @@
+@EndUserText.label: 'Open Invoice OData V4 Service'
+define service ZSD_OpenInvoice {
+  expose ZC_OpenInvoice as OpenInvoice;
+}
