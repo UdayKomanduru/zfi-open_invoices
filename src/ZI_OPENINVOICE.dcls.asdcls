@@ -1,0 +1,6 @@
+@MappingRole: true
+define role ZI_OpenInvoice {
+  grant select on ZI_OpenInvoice
+    where ( CompanyCode ) = aspect pfcg_auth(
+      F_BKPF_BUK, BUKRS, ACTVT = '03' );
+}
