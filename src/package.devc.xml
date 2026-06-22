@@ -2,7 +2,7 @@
 <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
     <DATA>
-      <DEVCLASS>ZGITTEST</DEVCLASS>
+      <DEVCLASS>ZGIT_TEST</DEVCLASS>
     </DATA>
   </asx:values>
 </asx:abap>
